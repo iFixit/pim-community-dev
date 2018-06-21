@@ -60,6 +60,18 @@ datagrid:
                 frontend_type: date
         properties:
             id: ~
+            edit_link:
+                type: url
+                route: pim_enrich_product_edit
+                params:
+                    - id
+                    - dataLocale
+        actions:
+            edit:
+                type:      navigate
+                label:     Edit
+                icon:      pencil
+                link:      edit_link
         sorters:
             columns:
                 in_group:
