@@ -12,7 +12,7 @@ function($, _, Backgrid) {
      */
     return Backgrid.BooleanCell.extend({
         /** @property {Boolean} */
-        listenRowClick: true,
+        listenRowClick: false,
 
         /**
          * @inheritDoc
