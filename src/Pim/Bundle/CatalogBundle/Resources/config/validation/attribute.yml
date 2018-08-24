@@ -13,7 +13,6 @@ Pim\Bundle\CatalogBundle\Entity\Attribute:
                 - scopable
                 - localizable
                 - metricFamily
-                - unique
         - Pim\Component\Catalog\Validator\Constraints\ValidMetric:
             groups:
                 - pim_catalog_metric

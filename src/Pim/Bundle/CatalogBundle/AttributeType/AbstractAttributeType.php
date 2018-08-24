@@ -144,8 +144,8 @@ abstract class AbstractAttributeType implements AttributeTypeInterface
                 'name'      => 'unique',
                 'fieldType' => 'switch',
                 'options'   => [
-                    'disabled'  => true,
-                    'read_only' => true
+                    'disabled'  => false,
+                    'read_only' => false
                 ]
             ]
         ];
